@@ -1,0 +1,271 @@
+@media screen and (max-width: 1024px) {
+    
+    .container{
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+    }
+        
+        header {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      height: auto;
+      position: static;
+
+    }
+    .container-principal{
+        margin-left: 0; 
+       
+    }
+     header .contenedor-img{
+         width: 30%;
+         height: 100%
+     }
+
+    header nav{
+        padding-top: 40px;
+         width: 60%;
+    }
+     header ul{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+        
+     }
+     header ul li{
+        display: block;
+        margin: 0;
+        width: 60%;
+        font-size: 1rem;
+        font-weight: bold;
+        
+     }
+
+     header ul li a{
+        padding-bottom: 5px;
+     }
+     nav ul li a:hover{
+       border-bottom: 1px solid  ;
+       box-shadow:  2px 2px #111909;
+    }
+
+     nav>ul>li>a:before {
+         display: none;
+     }
+
+     .img-principal{
+         display: none;
+     }
+
+     .button-header{
+         height: 60%; 
+         display: block;
+         margin: 0;
+         margin-left: 360px; 
+         padding: 10px 5px;
+         font-size: 1rem;
+     }
+
+     .social{
+         margin: 0;
+     }
+
+     .social>ul:after{
+         width: 320px;
+     }
+
+     .media-contenedor{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-left: 35%;
+        margin-top: -60px;
+        
+     }
+
+     .open{
+         display: none;
+     }
+
+    .caja-section{
+        width: 700px;
+        flex-direction: column;
+        margin: auto;
+      }
+
+    .servicio{
+       display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        width: 90%;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .servicio img{
+        margin-right: 10px;
+    }
+    .text{
+        padding: 10px;
+    }
+
+    .fotos{
+        flex-direction: row;
+    }
+
+    .section-text{
+        padding-left: 20px;
+        margin-bottom:10px;
+    }
+
+    .boton{
+        margin-top: -80px; 
+    }
+
+    .comment-section h2{
+        width: 50%;
+        float: left;
+    }
+    .comment-section .boton{
+        margin-top: 10px;
+    }
+
+  
+    .galeria{
+        margin-left:80px;
+    }
+   
+
+    .mapa{
+        margin-left: 20px;
+        min-height: 95vmin;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+        .galeria{
+        margin-left:80px;
+    } 
+
+     .galery{
+        margin-left:20px;
+    }   
+    .button-header{
+        margin-left: 220px;  
+    }
+    .social>ul:after{
+        width: 200px;
+    }
+
+  }
+
+  @media screen and (max-width: 450px){
+    header {
+        width: 100%;
+        margin: auto;
+      }
+      .container{
+          max-width: 450px;
+      }
+      .container-principal{
+        /* margin-left: 5px;    */
+        max-width: 450px;   
+    }
+
+     header .contenedor-img{
+         width: 100%;
+         height: 80%;
+         margin-bottom: 10px;
+     }
+     
+    header nav{
+        padding-top: 40px;
+         width: 100%;
+         margin-bottom: 20px;
+    }
+
+     header ul li{
+        display: block;
+        margin: 0;
+        width: 60%;
+        font-size: 0.8rem;
+        font-weight: bold; 
+     }
+
+     nav>ul>li>a:before {
+         display: none;
+     }
+
+     .media-contenedor{
+        margin-top: 0;
+        margin-left: 0;  
+    }
+
+    header nav{
+        padding-top: 0;
+    }
+
+ section h2{
+    margin-top: 40px;
+    font-size: 1.5rem;
+ }
+
+ section h2:last-child{
+     float: none;
+     width: auto;
+ }
+    section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+  }
+
+.boton{
+    margin-top:0;
+float: none;
+}
+
+.button-header{
+    margin-left: 150px; 
+    height: 80%; 
+
+}
+
+.social>ul:after{
+    width: 120px;
+}
+
+.servicio:last-child{
+    margin-bottom: 10px;
+}
+
+ .text {
+    visibility: hidden;
+}
+
+.comment-section h2{
+    width: 40%;
+
+}
+
+.caja-section{
+    width: 100%;
+    padding: 5px;
+}
+
+.pages{
+    margin-top: 40px;
+}
+
+.galeria{
+    margin: 40px auto 10px 50px;
+}
+.caja-servicio button{
+    font-size: 1.5rem;
+}
+}

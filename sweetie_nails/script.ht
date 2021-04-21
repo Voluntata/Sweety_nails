@@ -1,0 +1,32 @@
+var acordeones = document.getElementsByClassName('acordeon');
+var i;
+
+for (i = 0; i < acordeones.length; i++) {
+
+    acordeones[i].addEventListener('click', function () {
+        this.classList.toggle('activado');
+        var panel = this.nextElementSibling; /*obener referencia al siguente elemento hermano*/
+        if (panel.style.display === 'block') {         
+            panel.style.display = 'none';
+        }
+        else {
+            panel.style.display = 'block';  
+
+        }
+    })
+}
+
+var opened =document.getElementById('opened');
+opened.addEventListener('click', function(){
+    this.classList.toggle('close');
+    var info =this.nextElementSibling; /*obener referencia al siguente elemento hermano*/
+    if (info.style.display === 'block') {         
+        info.style.display = 'none';
+    }
+    else {
+        info.style.display = 'block';  
+
+    }
+})
+
+
